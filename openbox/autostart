@@ -1,7 +1,3 @@
 nitrogen --restore &
-st &
+qterminal &
 compton &
-tint2 &
-blueman &
-caffeine &
-
