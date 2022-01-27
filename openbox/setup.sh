@@ -35,6 +35,8 @@ line
 apt-get install xscreensaver xscreensaver-data-extra xscreensaver-gl-extra -y
 line
 apt install nomacs -y
+line
+apt install xfce4-notifyd -y
 
 title "Setting .config files"
 
