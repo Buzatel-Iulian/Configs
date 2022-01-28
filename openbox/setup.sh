@@ -44,6 +44,10 @@ cp rc.xml ~/.config/openbox/rc.xml
 cp autostart ~/.config/openbox/autostart
 cp tint2rc ~/.config/tint2/tint2rc
 cp compton.conf ~/.config/compton.conf
+cp utils/disp_vol.sh /usr/bin/disp_vol.sh
+cp utils/lower_vol /usr/bin/lower_vol.sh
+cp utils/mute_vol /usr/bin/mute_vol.sh
+cp utils/raise_vol /usr/bin/raise_vol.sh
 
 title "DONE"
 

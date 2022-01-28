@@ -1,19 +1,7 @@
 #!/bin/bash
 
-# Repeat given char N times using shell function
-repeat(){
-	local start=1
-	local end=${1:-80}
-	local str="${2:-=}"
-	local range=$(seq $start $end)
-	for i in $range ; do echo -n "${str}"; done
-}
-
 org_volume=`amixer -D pulse get Master|tail -n1|sed -E 's/.*\[([0-9]+)\%\].*/\1/'`
 i=1
-
-#notify-send "Volume" -t 500 -i notification-audio-volume-medium -h int:value:$volume
-#repeat 20 "/"
 
 volume=$((org_volume / 5))
 volume_bar=""
@@ -29,9 +17,7 @@ do
 	volume_bar="${volume_bar}░"
 
 	i=$i-1
-
 done
-
 
 if (( $org_volume >= 10 ));
 then
@@ -40,4 +26,3 @@ else
 notify-send "_________Volume : ${org_volume}%________" "║${volume_bar}║" -t 50
 fi
 
-echo "${volume_bar}${org_volume}"
