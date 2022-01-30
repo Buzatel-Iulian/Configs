@@ -34,9 +34,15 @@ apt install stterm -y
 line
 apt-get install xscreensaver xscreensaver-data-extra xscreensaver-gl-extra -y
 line
-apt install nomacs -y
+apt install nomacs -y      # image viewer
 line
 apt install xfce4-notifyd -y
+line
+apt install featherpad -y  # simple file (.txt .md etc.) editor
+line
+apt install pcmanfm-qt -y  # file explorer
+line
+apt install qbittorrent -y # torrent client
 
 title "Setting .config files"
 

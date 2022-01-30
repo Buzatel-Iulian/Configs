@@ -1,0 +1,20 @@
+
+VOLNOTY dependency setup:=================================================
+links:====================================================================
+
+https://github.com/davidbrazdil/volnoti
+https://aur.archlinux.org/packages/volnoti/
+https://github.com/erpalma/throttled/issues/5
+
+
+libs:=====================================================================
+
+sudo apt install git virtualenv build-essential python3-dev libdbus-glib-1-dev libgirepository1.0-dev libcairo2-dev
+
+sudo apt install git virtualenv build-essential python3-dev libdbus-glib-1-dev libgirepository1.0-dev libcairo2-dev
+pip3 install dbus-python
+
+sudo apt-get install gtk+-2.0
+
+
+
