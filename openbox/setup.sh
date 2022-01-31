@@ -43,6 +43,8 @@ line
 apt install pcmanfm-qt -y  # file explorer
 line
 apt install qbittorrent -y # torrent client
+line
+apt install xdotool -y
 
 title "Setting .config files"
 

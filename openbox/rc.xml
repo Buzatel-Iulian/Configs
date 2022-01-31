@@ -428,6 +428,18 @@
         <command>raise_vol.sh</command>
       </action>
     </keybind>
+    <!-- Bluetoth pause and play -->
+
+    <keybind key="XF86AudioPause">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>pause</name>
+        </startupnotify>
+        <command>xdotool key space</command>
+      </action>
+    </keybind>
+
     <!-- Keybindings for running applications -->
     <keybind key="Super_L">
       <action name="Execute">
