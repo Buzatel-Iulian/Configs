@@ -1,4 +1,5 @@
 nitrogen --restore &
+giphytool -c /home/buzatel-iulian/Pictures/Wallpapers/contrast-planet.gif &
 qterminal &
 compton &
 volnoti &

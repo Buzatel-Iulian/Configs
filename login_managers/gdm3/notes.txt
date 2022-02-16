@@ -1,0 +1,2 @@
+Location of .gresource file (might be in another folder under) :
+/usr/share/gnome-shell/theme
