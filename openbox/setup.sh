@@ -45,6 +45,12 @@ line
 apt install qbittorrent -y # torrent client
 line
 apt install xdotool -y
+line
+apt install qt5ct kvantum # theming software
+line
+apt install geany geany-plugins # IDE with its plugins
+# go to dependency_notes.txt for theme installs
+line
 
 title "Setting .config files"
 
@@ -56,6 +62,7 @@ cp utils/disp_vol.sh /usr/bin/disp_vol.sh
 cp utils/lower_vol /usr/bin/lower_vol.sh
 cp utils/mute_vol /usr/bin/mute_vol.sh
 cp utils/raise_vol /usr/bin/raise_vol.sh
+echo "export QT_STYLE_OVERRIDE=kvantum" >> ~/.profile   # enable kvantum to modify system themes
 
 title "DONE"
 

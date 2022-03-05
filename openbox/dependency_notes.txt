@@ -16,5 +16,18 @@ pip3 install dbus-python
 
 sudo apt-get install gtk+-2.0
 
+GIPHYTOOL depedency setup:================================================
+Links:====================================================================
 
+https://github.com/csucu/giphytool
+
+libs:=====================================================================
+
+sudo apt-get install build-essential libgtk-3-dev
+
+GEANY THEMES:=============================================================
+
+https://github.com/codebrainz/geany-themes
+
+==========================================================================
 
