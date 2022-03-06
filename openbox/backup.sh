@@ -16,6 +16,7 @@ cp ~/.config/openbox/rc.xml rc.xml
 cp ~/.config/openbox/autostart autostart
 cp ~/.config/tint2/tint2rc tint2rc
 cp ~/.config/compton.conf compton.conf
+cp ~/.zshrc zshrc
 
 title "DONE"
 

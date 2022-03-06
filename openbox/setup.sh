@@ -20,6 +20,8 @@ apt install alsamixergui -y
 line
 apt install tint2 -y
 line
+apt install rofi -y
+line
 apt install caffeine -y
 line
 apt install blueman -y
@@ -63,6 +65,7 @@ cp utils/lower_vol /usr/bin/lower_vol.sh
 cp utils/mute_vol /usr/bin/mute_vol.sh
 cp utils/raise_vol /usr/bin/raise_vol.sh
 echo "export QT_STYLE_OVERRIDE=kvantum" >> ~/.profile   # enable kvantum to modify system themes
+cp zshrc ~/.zshrc
 
 title "DONE"
 
