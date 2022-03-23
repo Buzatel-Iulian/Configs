@@ -48,11 +48,14 @@ apt install qbittorrent -y # torrent client
 line
 apt install xdotool -y
 line
+apt install zsh -y
+line
 apt install qt5ct kvantum # theming software
 line
 apt install geany geany-plugins # IDE with its plugins
 # go to dependency_notes.txt for theme installs
 line
+apt install brasero -y
 
 title "Setting .config files"
 
@@ -79,7 +82,8 @@ while true
 ################# if Y / Yes / y / yes ########################
 			 echo -en "REBOOTING IN\n"
 			 ./utils/loadcount.sh 0 0 10
-			 echo "reboot"
+			 echo "rebooting"
+			 reboot
 ###############################################################
 			  break
 			   ;;
