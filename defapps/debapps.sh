@@ -26,11 +26,11 @@ apt install qbittorrent -y # torrent client
 line
 apt install zsh -y
 line
-apt install qt5ct kvantum # theming software
-line
-apt install geany geany-plugins # IDE with its plugins
+#apt install qt5ct kvantum # theming software
+#line
+#apt install geany geany-plugins # IDE with its plugins
 # go to dependency_notes.txt for theme installs
-line
+#line
 apt install brasero -y
 line
 apt install vim -y
@@ -43,7 +43,12 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 title "Installing flatpaks"
 wget https://dl.flathub.org/repo/appstream/com.usebottles.bottles.flatpakref
 flatpak install com.usebottles.bottles.flatpakref -y
-
+line
+wget https://dl.flathub.org/repo/appstream/nz.mega.MEGAsync.flatpakref
+flatpak install nz.mega.MEGAsync.flatpakref -y
+line
+wget https://dl.flathub.org/repo/appstream/com.visualstudio.code.flatpakref
+flatpak install com.visualstudio.code.flatpakref -y
 
 title "Finished"
 
