@@ -50,6 +50,8 @@ line
 apt install steam -y
 line
 apt install octave -y
+line
+apt install vlc -y
 
 title "Setting up flatpak manager"
 apt install flatpak -y
