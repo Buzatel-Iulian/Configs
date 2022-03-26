@@ -38,6 +38,18 @@ line
 apt install vim -y
 line
 apt install audacious -y
+line
+apt install virtualbox -y
+line
+apt install dosbox -y
+line
+apt install krita -y
+line
+apt install gimp -y
+line
+apt install steam -y
+line
+apt install octave -y
 
 title "Setting up flatpak manager"
 apt install flatpak -y
@@ -45,14 +57,23 @@ apt install gnome-software-plugin-flatpak
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
 title "Installing flatpaks"
+
 wget https://dl.flathub.org/repo/appstream/com.usebottles.bottles.flatpakref
 flatpak install com.usebottles.bottles.flatpakref -y
 line
+
 wget https://dl.flathub.org/repo/appstream/nz.mega.MEGAsync.flatpakref
 flatpak install nz.mega.MEGAsync.flatpakref -y
 line
+
 wget https://dl.flathub.org/repo/appstream/com.visualstudio.code.flatpakref
 flatpak install com.visualstudio.code.flatpakref -y
+line
+
+flatpak install flathub net.runelite.RuneLite -y
+line
+
+flatpak install flathub org.chromium.Chromium -y
 
 title "Setting up Vimrc"
 cp vimrc ~/.vimrc
