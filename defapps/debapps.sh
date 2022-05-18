@@ -14,15 +14,15 @@ title "Installing usual debian applications"
 
 apt install git -y
 line
-apt install rofi -y
+#apt install rofi -y
 line
 apt install caffeine -y
 line
-apt install nomacs -y      # image viewer
+#apt install nomacs -y      # image viewer
 line
-apt install featherpad -y  # simple file (.txt .md etc.) editor
+#apt install featherpad -y  # simple file (.txt .md etc.) editor
 line
-apt install pcmanfm-qt -y  # file explorer
+#apt install pcmanfm-qt -y  # file explorer
 line
 apt install qbittorrent -y # torrent client
 line
@@ -33,7 +33,7 @@ line
 #apt install geany geany-plugins # IDE with its plugins
 # go to dependency_notes.txt for theme installs
 #line
-apt install brasero -y
+#apt install brasero -y
 line
 apt install vim -y
 line
@@ -51,7 +51,7 @@ apt install steam -y
 line
 apt install octave -y
 line
-apt install vlc -y
+#apt install vlc -y
 
 title "Setting up flatpak manager"
 apt install flatpak -y
@@ -68,14 +68,14 @@ wget https://dl.flathub.org/repo/appstream/nz.mega.MEGAsync.flatpakref
 flatpak install nz.mega.MEGAsync.flatpakref -y
 line
 
-wget https://dl.flathub.org/repo/appstream/com.visualstudio.code.flatpakref
-flatpak install com.visualstudio.code.flatpakref -y
-line
+#wget https://dl.flathub.org/repo/appstream/com.visualstudio.code.flatpakref
+#flatpak install com.visualstudio.code.flatpakref -y
+#line
 
 flatpak install flathub net.runelite.RuneLite -y
 line
 
-flatpak install flathub org.chromium.Chromium -y
+#flatpak install flathub org.chromium.Chromium -y
 
 title "Setting up Vimrc"
 cp vimrc ~/.vimrc
