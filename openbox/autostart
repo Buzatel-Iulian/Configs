@@ -1,7 +1,6 @@
 nitrogen --restore &
 giphytool -c /home/buzatel-iulian/Pictures/Wallpapers/contrast-planet.gif &
-qterminal &
 compton &
 volnoti &
 caffeine &
-xscreensaver -no-splash &
+xrandr --output eDP-1 --brightness 0.8 &
