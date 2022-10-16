@@ -34,4 +34,7 @@ ZSH-theme:====================================================
 
 https://github.com/agkozak/agkozak-zsh-prompt
 
-==============================================================
+Install conky desktop resource widget ====================================
+
+sudo apt install conky-all
+https://linuxconfig.org/ubuntu-20-04-system-monitoring-with-conky-widgets
