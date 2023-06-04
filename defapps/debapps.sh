@@ -33,9 +33,10 @@ line
 #apt install geany geany-plugins # IDE with its plugins
 # go to dependency_notes.txt for theme installs
 #line
-#apt install brasero -y
+apt install brasero -y
 line
-apt install vim -y
+#apt install vim -y
+apt install nvim -y
 line
 apt install audacious -y
 line
@@ -51,7 +52,11 @@ apt install steam -y
 line
 apt install octave -y
 line
-#apt install vlc -y
+apt install vlc -y
+line
+apt install gnome-chess -y
+line
+
 
 title "Setting up flatpak manager"
 apt install flatpak -y
@@ -75,10 +80,19 @@ line
 flatpak install flathub net.runelite.RuneLite -y
 line
 
+flatpak install flathub com.obsproject.Studio
+line
+
+flatpak install flathub org.gnome.Weather
+line
+
+flatpak install flathub org.gnome.Cheese
+line
+
 #flatpak install flathub org.chromium.Chromium -y
 
-title "Setting up Vimrc"
-cp vimrc ~/.vimrc
+#title "Setting up Vimrc"
+#cp vimrc ~/.vimrc
 
 title "Setting up ZSH"
 #orgd = pwd

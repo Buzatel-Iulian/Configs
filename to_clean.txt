@@ -1,0 +1,3 @@
+
+On Ubuntu / Debian :
+- tracker-miner
